@@ -5,7 +5,7 @@ while ( x <= 10){
 }*/
 
 const num = () => {
-    let x = ;
+    let x = 1;
     while( x <= 5){
     if ( x = 1){
         console.log(x);
