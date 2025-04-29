@@ -1,17 +1,22 @@
-/*let x = 1;
-while ( x <= 10){
-    console.log(x);
-    x++;
-}*/
+const cards = ['diamond', 'spade', 'heart', 'club'];
 
-const num = () => {
-    let x =;
-    while( x <= 5){
-    if ( x = 1){
-        console.log(x);
-    }
-    x++;
+// Write your code below
+let currentCard ;
+while (currentCard !== 'club'){
+    currentCard = cards[Math.floor(Math.random() * 4)];
+    console.log('The current Card is ' + currentCard);
+}
 
-    }
-};
-console.log(num());
+
+
+const ludo = [1, 2, 3, 4, 5, 6]
+let num;
+
+while (num !== 6){
+    num = ludo[Math.floor(Math.random() * 6)];
+    console.log('The number is ' + num);
+}
+
+
+
+
