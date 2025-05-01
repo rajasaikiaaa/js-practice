@@ -18,5 +18,14 @@ while (num !== 6){
 }
 
 
+const count = () => {
+    let x = 0;
+    while (x <=10){
+        console.log(x);
+        x++;
+    }
+    
+}
 
+count();
 
