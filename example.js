@@ -16,4 +16,4 @@ let newArray1 = newArray.filter(word => {
 
 
 newArray1.push("Hello World");
-console.log(newArray1);
+console.log(newArray1); 
