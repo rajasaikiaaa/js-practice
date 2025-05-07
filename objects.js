@@ -39,3 +39,5 @@
   delete spaceship['Secret Mission'];//deleting a property.
 
   console.log(spaceship);
+
+  console.log(spaceship.color);
